@@ -14,9 +14,11 @@ class BannerAdViewController: UIViewController {
     @IBOutlet var bannerView: GADBannerView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        bannerView.adUnitID = "ca-app-pub-1943700858932247~9808523213"
+        bannerView.adUnitID = "ca-app-pub-1943700858932247/7221656815"
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        bannerView.load(request)
 
         // Do any additional setup after loading the view.
     }

@@ -12,7 +12,8 @@
 		3F1B70111DE7B843001FA759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B700F1DE7B843001FA759 /* Main.storyboard */; };
 		3F1B70131DE7B843001FA759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B70121DE7B843001FA759 /* Assets.xcassets */; };
 		3F1B70161DE7B843001FA759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B70141DE7B843001FA759 /* LaunchScreen.storyboard */; };
-		3F1B701E1DE7B8B5001FA759 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B701D1DE7B8B5001FA759 /* GoogleService-Info.plist */; };
+		3F5EF5A51DE89FEF00D98548 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */; };
+		3F5EF5A81DE9061600D98548 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EF5A71DE9061600D98548 /* WebViewController.swift */; };
 		3FEC48991DE7C132004FE3E9 /* BannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC48981DE7C132004FE3E9 /* BannerAdViewController.swift */; };
 		3FEC489B1DE7C142004FE3E9 /* IntersitialAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */; };
 		3FEC489D1DE7C151004FE3E9 /* NativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */; };
@@ -29,7 +30,9 @@
 		3F1B70121DE7B843001FA759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1B70151DE7B843001FA759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1B70171DE7B844001FA759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F1B701D1DE7B8B5001FA759 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F5EF5A61DE8A26A00D98548 /* iosAdMob.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iosAdMob.entitlements; sourceTree = "<group>"; };
+		3F5EF5A71DE9061600D98548 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		3FEC48981DE7C132004FE3E9 /* BannerAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAdViewController.swift; sourceTree = "<group>"; };
 		3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntersitialAdViewController.swift; sourceTree = "<group>"; };
 		3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +74,8 @@
 		3F1B700A1DE7B843001FA759 /* iosAdMob */ = {
 			isa = PBXGroup;
 			children = (
-				3F1B701D1DE7B8B5001FA759 /* GoogleService-Info.plist */,
+				3F5EF5A61DE8A26A00D98548 /* iosAdMob.entitlements */,
+				3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */,
 				3F1B700B1DE7B843001FA759 /* AppDelegate.swift */,
 				3F1B700D1DE7B843001FA759 /* ViewController.swift */,
 				3F1B700F1DE7B843001FA759 /* Main.storyboard */,
@@ -82,6 +86,7 @@
 				3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */,
 				3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */,
 				3FEC489E1DE7C167004FE3E9 /* RewardedVideoViewController.swift */,
+				3F5EF5A71DE9061600D98548 /* WebViewController.swift */,
 			);
 			path = iosAdMob;
 			sourceTree = "<group>";
@@ -138,7 +143,13 @@
 				TargetAttributes = {
 					3F1B70071DE7B843001FA759 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M637AR755M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -165,10 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5EF5A51DE89FEF00D98548 /* GoogleService-Info.plist in Resources */,
 				3F1B70161DE7B843001FA759 /* LaunchScreen.storyboard in Resources */,
 				3F1B70131DE7B843001FA759 /* Assets.xcassets in Resources */,
 				3F1B70111DE7B843001FA759 /* Main.storyboard in Resources */,
-				3F1B701E1DE7B8B5001FA759 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +242,7 @@
 				3FEC489B1DE7C142004FE3E9 /* IntersitialAdViewController.swift in Sources */,
 				3F1B700E1DE7B843001FA759 /* ViewController.swift in Sources */,
 				3FEC48991DE7C132004FE3E9 /* BannerAdViewController.swift in Sources */,
+				3F5EF5A81DE9061600D98548 /* WebViewController.swift in Sources */,
 				3FEC489F1DE7C167004FE3E9 /* RewardedVideoViewController.swift in Sources */,
 				3F1B700C1DE7B843001FA759 /* AppDelegate.swift in Sources */,
 			);
@@ -356,6 +368,8 @@
 			baseConfigurationReference = B3B56D57F7177D06D27CD60B /* Pods-iosAdMob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iosAdMob/iosAdMob.entitlements;
+				DEVELOPMENT_TEAM = M637AR755M;
 				INFOPLIST_FILE = iosAdMob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.romerock.modules.iosAdMob;
@@ -369,6 +383,8 @@
 			baseConfigurationReference = CDEF8A6FEB328095410A6296 /* Pods-iosAdMob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iosAdMob/iosAdMob.entitlements;
+				DEVELOPMENT_TEAM = M637AR755M;
 				INFOPLIST_FILE = iosAdMob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.romerock.modules.iosAdMob;

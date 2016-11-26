@@ -1,28 +1,23 @@
 //
-//  NativeAdViewController.swift
+//  WebViewController.swift
 //  iosAdMob
 //
-//  Created by Rome Rock on 11/24/16.
+//  Created by Rome Rock on 11/25/16.
 //  Copyright © 2016 Rome Rock. All rights reserved.
 //
 
 import UIKit
-import GoogleMobileAds
 
-class NativeAdViewController: UIViewController {
+class WebViewController: UIViewController {
 
-    @IBOutlet var nativeExpressAdView: GADNativeExpressAdView!
+    @IBOutlet var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-        nativeExpressAdView.adUnitID = "ca-app-pub-1943700858932247/7801909611"
-        nativeExpressAdView.rootViewController = self
-        
-        let request = GADRequest()
-        request.testDevices = [kGADSimulatorID]
-        nativeExpressAdView.load(request)
 
+        // Do any additional setup after loading the view.
+        let url = NSURL (string: "http://romerock.com")
+        let requestObj = NSURLRequest(url: url! as URL)
+        webView.loadRequest(requestObj as URLRequest)
     }
 
     override func didReceiveMemoryWarning() {
