@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Fabric.with([Crashlytics.self])
         FIRApp.configure()
         GADMobileAds.configure(withApplicationID: "ca-app-pub-1943700858932247~9808523213")
         
@@ -28,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let sdk = VungleSDK.shared()
         // start vungle publisher library
         sdk?.start(withAppId: appID)
-        Fabric.with([Crashlytics.self])
+        
         return true
     }
 

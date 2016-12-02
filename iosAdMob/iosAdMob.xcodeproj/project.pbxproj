@@ -41,11 +41,10 @@
 		3FEC489B1DE7C142004FE3E9 /* IntersitialAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */; };
 		3FEC489D1DE7C151004FE3E9 /* NativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */; };
 		3FEC489F1DE7C167004FE3E9 /* RewardedVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489E1DE7C167004FE3E9 /* RewardedVideoViewController.swift */; };
-		7B178292A92F397FB4DEDD8C /* Pods_iosAdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F44B332BCDD1AD5910941C /* Pods_iosAdMob.framework */; };
+		CFED8F53F8CA6428FE322A61 /* Pods_iosAdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6839161A9E4DC4E510699200 /* Pods_iosAdMob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33F44B332BCDD1AD5910941C /* Pods_iosAdMob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosAdMob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1B70081DE7B843001FA759 /* iosAdMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAdMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1B700B1DE7B843001FA759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F1B700D1DE7B843001FA759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,8 +84,9 @@
 		3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntersitialAdViewController.swift; sourceTree = "<group>"; };
 		3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdViewController.swift; sourceTree = "<group>"; };
 		3FEC489E1DE7C167004FE3E9 /* RewardedVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardedVideoViewController.swift; sourceTree = "<group>"; };
-		B3B56D57F7177D06D27CD60B /* Pods-iosAdMob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAdMob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosAdMob/Pods-iosAdMob.debug.xcconfig"; sourceTree = "<group>"; };
-		CDEF8A6FEB328095410A6296 /* Pods-iosAdMob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAdMob.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosAdMob/Pods-iosAdMob.release.xcconfig"; sourceTree = "<group>"; };
+		6839161A9E4DC4E510699200 /* Pods_iosAdMob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosAdMob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7846EC710CCE9DB4EA087A6 /* Pods-iosAdMob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAdMob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosAdMob/Pods-iosAdMob.debug.xcconfig"; sourceTree = "<group>"; };
+		C000029FF0A99C81422EF3F8 /* Pods-iosAdMob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAdMob.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosAdMob/Pods-iosAdMob.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,21 +111,30 @@
 				3F6862121DED020D009B002E /* AVFoundation.framework in Frameworks */,
 				3F6862101DED0204009B002E /* AudioToolbox.framework in Frameworks */,
 				3F68620E1DED01FB009B002E /* AdSupport.framework in Frameworks */,
-				7B178292A92F397FB4DEDD8C /* Pods_iosAdMob.framework in Frameworks */,
+				CFED8F53F8CA6428FE322A61 /* Pods_iosAdMob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F835217C592EF7B2448E75C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7846EC710CCE9DB4EA087A6 /* Pods-iosAdMob.debug.xcconfig */,
+				C000029FF0A99C81422EF3F8 /* Pods-iosAdMob.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F1B6FFF1DE7B843001FA759 = {
 			isa = PBXGroup;
 			children = (
 				3F1B700A1DE7B843001FA759 /* iosAdMob */,
 				3F1B70091DE7B843001FA759 /* Products */,
-				6C6CA2EB1B66B913C1242CD1 /* Pods */,
 				6672EB62D3497EACED522083 /* Frameworks */,
 				3F68622D1DED04B0009B002E /* iosAdMob-Bridging-Header.h */,
+				0F835217C592EF7B2448E75C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,18 +201,9 @@
 				3F68620F1DED0204009B002E /* AudioToolbox.framework */,
 				3F68620D1DED01FB009B002E /* AdSupport.framework */,
 				3F68620B1DED01B8009B002E /* VungleSDK.embeddedframework */,
-				33F44B332BCDD1AD5910941C /* Pods_iosAdMob.framework */,
+				6839161A9E4DC4E510699200 /* Pods_iosAdMob.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6C6CA2EB1B66B913C1242CD1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B3B56D57F7177D06D27CD60B /* Pods-iosAdMob.debug.xcconfig */,
-				CDEF8A6FEB328095410A6296 /* Pods-iosAdMob.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,13 +213,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F1B701A1DE7B844001FA759 /* Build configuration list for PBXNativeTarget "iosAdMob" */;
 			buildPhases = (
-				1989503C13EE1DEE6C1C2772 /* [CP] Check Pods Manifest.lock */,
+				A31D81A7038AC5F0AA0CBC37 /* [CP] Check Pods Manifest.lock */,
 				3F1B70041DE7B843001FA759 /* Sources */,
 				3F1B70051DE7B843001FA759 /* Frameworks */,
 				3F1B70061DE7B843001FA759 /* Resources */,
-				71BB49F24F94DB9FBC85AFDC /* [CP] Embed Pods Frameworks */,
-				A22F82B7FC4E21EC41FCF011 /* [CP] Copy Pods Resources */,
-				3F34FDC51DF0ED4F001915A3 /* ShellScript */,
+				4F984FAA1EFD4F1A3A8D146B /* [CP] Embed Pods Frameworks */,
+				E98EEA4AD795FEB096609CFA /* [CP] Copy Pods Resources */,
+				3F2A32CE1DF1F21900B23FC6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -287,22 +287,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1989503C13EE1DEE6C1C2772 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3F34FDC51DF0ED4F001915A3 /* ShellScript */ = {
+		3F2A32CE1DF1F21900B23FC6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,7 +300,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 86fe069ba50b0e638135e385737ebb6a3a748338 d3c2257bc7068a694cb5cfb2e4180035da34b00b7c2443ed849298fd3c170331";
 		};
-		71BB49F24F94DB9FBC85AFDC /* [CP] Embed Pods Frameworks */ = {
+		4F984FAA1EFD4F1A3A8D146B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,7 +315,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosAdMob/Pods-iosAdMob-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A22F82B7FC4E21EC41FCF011 /* [CP] Copy Pods Resources */ = {
+		A31D81A7038AC5F0AA0CBC37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E98EEA4AD795FEB096609CFA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -484,7 +484,7 @@
 		};
 		3F1B701B1DE7B844001FA759 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3B56D57F7177D06D27CD60B /* Pods-iosAdMob.debug.xcconfig */;
+			baseConfigurationReference = A7846EC710CCE9DB4EA087A6 /* Pods-iosAdMob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -510,7 +510,7 @@
 		};
 		3F1B701C1DE7B844001FA759 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEF8A6FEB328095410A6296 /* Pods-iosAdMob.release.xcconfig */;
+			baseConfigurationReference = C000029FF0A99C81422EF3F8 /* Pods-iosAdMob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -16,7 +16,7 @@
             </dict>
         </array>
     </dict>
-	<key>CFBundleDevelopmentRegion</key>
+    <key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>

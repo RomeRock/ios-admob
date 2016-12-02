@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import Crashlytics
 
 class BannerAdViewController: UIViewController {
 
@@ -19,7 +20,7 @@ class BannerAdViewController: UIViewController {
         let request = GADRequest()
         request.testDevices = [kGADSimulatorID]
         bannerView.load(request)
-
+        Crashlytics.sharedInstance().crash()
         // Do any additional setup after loading the view.
     }
 
