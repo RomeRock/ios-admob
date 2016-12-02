@@ -12,8 +12,31 @@
 		3F1B70111DE7B843001FA759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B700F1DE7B843001FA759 /* Main.storyboard */; };
 		3F1B70131DE7B843001FA759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B70121DE7B843001FA759 /* Assets.xcassets */; };
 		3F1B70161DE7B843001FA759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B70141DE7B843001FA759 /* LaunchScreen.storyboard */; };
+		3F34FDBE1DF0A612001915A3 /* StandarBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FDBD1DF0A612001915A3 /* StandarBannerViewController.swift */; };
+		3F34FDC01DF0A693001915A3 /* LargeBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FDBF1DF0A693001915A3 /* LargeBannerViewController.swift */; };
+		3F34FDC21DF0A6A7001915A3 /* SmartBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FDC11DF0A6A7001915A3 /* SmartBannerViewController.swift */; };
+		3F34FDC41DF0BA48001915A3 /* MediumBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34FDC31DF0BA48001915A3 /* MediumBannerViewController.swift */; };
 		3F5EF5A51DE89FEF00D98548 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */; };
 		3F5EF5A81DE9061600D98548 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EF5A71DE9061600D98548 /* WebViewController.swift */; };
+		3F68620C1DED01B8009B002E /* VungleSDK.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 3F68620B1DED01B8009B002E /* VungleSDK.embeddedframework */; };
+		3F68620E1DED01FB009B002E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68620D1DED01FB009B002E /* AdSupport.framework */; };
+		3F6862101DED0204009B002E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68620F1DED0204009B002E /* AudioToolbox.framework */; };
+		3F6862121DED020D009B002E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862111DED020D009B002E /* AVFoundation.framework */; };
+		3F6862141DED0216009B002E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862131DED0216009B002E /* CFNetwork.framework */; };
+		3F6862171DED022B009B002E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862151DED022B009B002E /* CoreGraphics.framework */; };
+		3F6862181DED022B009B002E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862161DED022B009B002E /* CoreMedia.framework */; };
+		3F68621A1DED0240009B002E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862191DED0240009B002E /* Foundation.framework */; };
+		3F68621C1DED027C009B002E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68621B1DED027C009B002E /* MediaPlayer.framework */; };
+		3F68621F1DED0290009B002E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68621D1DED0290009B002E /* QuartzCore.framework */; };
+		3F6862201DED0290009B002E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68621E1DED0290009B002E /* StoreKit.framework */; };
+		3F6862231DED029D009B002E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862211DED029D009B002E /* SystemConfiguration.framework */; };
+		3F6862241DED029D009B002E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862221DED029D009B002E /* UIKit.framework */; };
+		3F6862261DED02A7009B002E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862251DED02A7009B002E /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3F6862291DED0335009B002E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862271DED0335009B002E /* libsqlite3.dylib */; };
+		3F68622A1DED0335009B002E /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862281DED0335009B002E /* libz.1.dylib */; };
+		3F68622C1DED036C009B002E /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68622B1DED036C009B002E /* VungleSDK.framework */; };
+		3F760E2C1DEE3ABB00D1FD2D /* libVungleAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F760E2A1DEE3ABB00D1FD2D /* libVungleAdapter.a */; };
+		3F760E2E1DEE4B9700D1FD2D /* BannerSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F760E2D1DEE4B9700D1FD2D /* BannerSizeViewController.swift */; };
 		3FEC48991DE7C132004FE3E9 /* BannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC48981DE7C132004FE3E9 /* BannerAdViewController.swift */; };
 		3FEC489B1DE7C142004FE3E9 /* IntersitialAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */; };
 		3FEC489D1DE7C151004FE3E9 /* NativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */; };
@@ -30,9 +53,34 @@
 		3F1B70121DE7B843001FA759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1B70151DE7B843001FA759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1B70171DE7B844001FA759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F34FDBD1DF0A612001915A3 /* StandarBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandarBannerViewController.swift; sourceTree = "<group>"; };
+		3F34FDBF1DF0A693001915A3 /* LargeBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeBannerViewController.swift; sourceTree = "<group>"; };
+		3F34FDC11DF0A6A7001915A3 /* SmartBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartBannerViewController.swift; sourceTree = "<group>"; };
+		3F34FDC31DF0BA48001915A3 /* MediumBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumBannerViewController.swift; sourceTree = "<group>"; };
 		3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3F5EF5A61DE8A26A00D98548 /* iosAdMob.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iosAdMob.entitlements; sourceTree = "<group>"; };
 		3F5EF5A71DE9061600D98548 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3F68620B1DED01B8009B002E /* VungleSDK.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VungleSDK.embeddedframework; sourceTree = "<group>"; };
+		3F68620D1DED01FB009B002E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3F68620F1DED0204009B002E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3F6862111DED020D009B002E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F6862131DED0216009B002E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3F6862151DED022B009B002E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F6862161DED022B009B002E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3F6862191DED0240009B002E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F68621B1DED027C009B002E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3F68621D1DED0290009B002E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F68621E1DED0290009B002E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3F6862211DED029D009B002E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F6862221DED029D009B002E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F6862251DED02A7009B002E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3F6862271DED0335009B002E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		3F6862281DED0335009B002E /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		3F68622B1DED036C009B002E /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
+		3F68622D1DED04B0009B002E /* iosAdMob-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosAdMob-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F760E2A1DEE3ABB00D1FD2D /* libVungleAdapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVungleAdapter.a; sourceTree = "<group>"; };
+		3F760E2B1DEE3ABB00D1FD2D /* VungleAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VungleAdNetworkExtras.h; sourceTree = "<group>"; };
+		3F760E2D1DEE4B9700D1FD2D /* BannerSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerSizeViewController.swift; sourceTree = "<group>"; };
 		3FEC48981DE7C132004FE3E9 /* BannerAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAdViewController.swift; sourceTree = "<group>"; };
 		3FEC489A1DE7C142004FE3E9 /* IntersitialAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntersitialAdViewController.swift; sourceTree = "<group>"; };
 		3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F68622C1DED036C009B002E /* VungleSDK.framework in Frameworks */,
+				3F6862291DED0335009B002E /* libsqlite3.dylib in Frameworks */,
+				3F68622A1DED0335009B002E /* libz.1.dylib in Frameworks */,
+				3F6862261DED02A7009B002E /* WebKit.framework in Frameworks */,
+				3F6862231DED029D009B002E /* SystemConfiguration.framework in Frameworks */,
+				3F6862241DED029D009B002E /* UIKit.framework in Frameworks */,
+				3F68621F1DED0290009B002E /* QuartzCore.framework in Frameworks */,
+				3F6862201DED0290009B002E /* StoreKit.framework in Frameworks */,
+				3F68621C1DED027C009B002E /* MediaPlayer.framework in Frameworks */,
+				3F68621A1DED0240009B002E /* Foundation.framework in Frameworks */,
+				3F6862171DED022B009B002E /* CoreGraphics.framework in Frameworks */,
+				3F6862181DED022B009B002E /* CoreMedia.framework in Frameworks */,
+				3F760E2C1DEE3ABB00D1FD2D /* libVungleAdapter.a in Frameworks */,
+				3F6862141DED0216009B002E /* CFNetwork.framework in Frameworks */,
+				3F6862121DED020D009B002E /* AVFoundation.framework in Frameworks */,
+				3F6862101DED0204009B002E /* AudioToolbox.framework in Frameworks */,
+				3F68620E1DED01FB009B002E /* AdSupport.framework in Frameworks */,
 				7B178292A92F397FB4DEDD8C /* Pods_iosAdMob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +125,7 @@
 				3F1B70091DE7B843001FA759 /* Products */,
 				6C6CA2EB1B66B913C1242CD1 /* Pods */,
 				6672EB62D3497EACED522083 /* Frameworks */,
+				3F68622D1DED04B0009B002E /* iosAdMob-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +140,7 @@
 		3F1B700A1DE7B843001FA759 /* iosAdMob */ = {
 			isa = PBXGroup;
 			children = (
+				3F760E291DEE3AAC00D1FD2D /* Mediation */,
 				3F5EF5A61DE8A26A00D98548 /* iosAdMob.entitlements */,
 				3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */,
 				3F1B700B1DE7B843001FA759 /* AppDelegate.swift */,
@@ -87,13 +154,44 @@
 				3FEC489C1DE7C151004FE3E9 /* NativeAdViewController.swift */,
 				3FEC489E1DE7C167004FE3E9 /* RewardedVideoViewController.swift */,
 				3F5EF5A71DE9061600D98548 /* WebViewController.swift */,
+				3F760E2D1DEE4B9700D1FD2D /* BannerSizeViewController.swift */,
+				3F34FDBD1DF0A612001915A3 /* StandarBannerViewController.swift */,
+				3F34FDBF1DF0A693001915A3 /* LargeBannerViewController.swift */,
+				3F34FDC11DF0A6A7001915A3 /* SmartBannerViewController.swift */,
+				3F34FDC31DF0BA48001915A3 /* MediumBannerViewController.swift */,
 			);
 			path = iosAdMob;
+			sourceTree = "<group>";
+		};
+		3F760E291DEE3AAC00D1FD2D /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				3F760E2A1DEE3ABB00D1FD2D /* libVungleAdapter.a */,
+				3F760E2B1DEE3ABB00D1FD2D /* VungleAdNetworkExtras.h */,
+			);
+			name = Mediation;
 			sourceTree = "<group>";
 		};
 		6672EB62D3497EACED522083 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F68622B1DED036C009B002E /* VungleSDK.framework */,
+				3F6862271DED0335009B002E /* libsqlite3.dylib */,
+				3F6862281DED0335009B002E /* libz.1.dylib */,
+				3F6862251DED02A7009B002E /* WebKit.framework */,
+				3F6862211DED029D009B002E /* SystemConfiguration.framework */,
+				3F6862221DED029D009B002E /* UIKit.framework */,
+				3F68621D1DED0290009B002E /* QuartzCore.framework */,
+				3F68621E1DED0290009B002E /* StoreKit.framework */,
+				3F68621B1DED027C009B002E /* MediaPlayer.framework */,
+				3F6862191DED0240009B002E /* Foundation.framework */,
+				3F6862151DED022B009B002E /* CoreGraphics.framework */,
+				3F6862161DED022B009B002E /* CoreMedia.framework */,
+				3F6862131DED0216009B002E /* CFNetwork.framework */,
+				3F6862111DED020D009B002E /* AVFoundation.framework */,
+				3F68620F1DED0204009B002E /* AudioToolbox.framework */,
+				3F68620D1DED01FB009B002E /* AdSupport.framework */,
+				3F68620B1DED01B8009B002E /* VungleSDK.embeddedframework */,
 				33F44B332BCDD1AD5910941C /* Pods_iosAdMob.framework */,
 			);
 			name = Frameworks;
@@ -121,6 +219,7 @@
 				3F1B70061DE7B843001FA759 /* Resources */,
 				71BB49F24F94DB9FBC85AFDC /* [CP] Embed Pods Frameworks */,
 				A22F82B7FC4E21EC41FCF011 /* [CP] Copy Pods Resources */,
+				3F34FDC51DF0ED4F001915A3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -144,6 +243,7 @@
 					3F1B70071DE7B843001FA759 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = M637AR755M;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -179,6 +279,7 @@
 				3F5EF5A51DE89FEF00D98548 /* GoogleService-Info.plist in Resources */,
 				3F1B70161DE7B843001FA759 /* LaunchScreen.storyboard in Resources */,
 				3F1B70131DE7B843001FA759 /* Assets.xcassets in Resources */,
+				3F68620C1DED01B8009B002E /* VungleSDK.embeddedframework in Resources */,
 				3F1B70111DE7B843001FA759 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +301,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		3F34FDC51DF0ED4F001915A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 86fe069ba50b0e638135e385737ebb6a3a748338 d3c2257bc7068a694cb5cfb2e4180035da34b00b7c2443ed849298fd3c170331";
 		};
 		71BB49F24F94DB9FBC85AFDC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -239,11 +353,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEC489D1DE7C151004FE3E9 /* NativeAdViewController.swift in Sources */,
+				3F34FDC21DF0A6A7001915A3 /* SmartBannerViewController.swift in Sources */,
+				3F760E2E1DEE4B9700D1FD2D /* BannerSizeViewController.swift in Sources */,
+				3F34FDC01DF0A693001915A3 /* LargeBannerViewController.swift in Sources */,
+				3F34FDBE1DF0A612001915A3 /* StandarBannerViewController.swift in Sources */,
 				3FEC489B1DE7C142004FE3E9 /* IntersitialAdViewController.swift in Sources */,
 				3F1B700E1DE7B843001FA759 /* ViewController.swift in Sources */,
 				3FEC48991DE7C132004FE3E9 /* BannerAdViewController.swift in Sources */,
 				3F5EF5A81DE9061600D98548 /* WebViewController.swift in Sources */,
 				3FEC489F1DE7C167004FE3E9 /* RewardedVideoViewController.swift in Sources */,
+				3F34FDC41DF0BA48001915A3 /* MediumBannerViewController.swift in Sources */,
 				3F1B700C1DE7B843001FA759 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,12 +487,23 @@
 			baseConfigurationReference = B3B56D57F7177D06D27CD60B /* Pods-iosAdMob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iosAdMob/iosAdMob.entitlements;
 				DEVELOPMENT_TEAM = M637AR755M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+				);
 				INFOPLIST_FILE = iosAdMob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosAdMob",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.romerock.modules.iosAdMob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosAdMob-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -383,12 +513,22 @@
 			baseConfigurationReference = CDEF8A6FEB328095410A6296 /* Pods-iosAdMob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iosAdMob/iosAdMob.entitlements;
 				DEVELOPMENT_TEAM = M637AR755M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
+				);
 				INFOPLIST_FILE = iosAdMob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosAdMob",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.romerock.modules.iosAdMob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosAdMob-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

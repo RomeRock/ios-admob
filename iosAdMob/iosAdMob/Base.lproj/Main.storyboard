@@ -22,34 +22,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cl3-X3-tVM">
-                                <rect key="frame" x="131.5" y="273.5" width="112" height="120"/>
+                                <rect key="frame" x="143" y="273.5" width="89" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSL-ry-pjM">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="89" height="30"/>
                                         <state key="normal" title="Banner Ad"/>
                                         <connections>
                                             <segue destination="i55-oy-h8F" kind="show" id="4ic-a7-J11"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlG-om-CaR">
-                                        <rect key="frame" x="0.0" y="30" width="112" height="30"/>
+                                        <rect key="frame" x="0.0" y="30" width="89" height="30"/>
                                         <state key="normal" title="Intersitial Ad"/>
                                         <connections>
                                             <segue destination="ZpS-TY-bNU" kind="show" id="MBG-ks-gsy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmA-Ca-NxO">
-                                        <rect key="frame" x="0.0" y="60" width="112" height="30"/>
+                                        <rect key="frame" x="0.0" y="60" width="89" height="30"/>
                                         <state key="normal" title="Native Ad"/>
                                         <connections>
                                             <segue destination="dsp-gx-upD" kind="show" id="yZV-jb-gMY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBa-YR-cDw">
-                                        <rect key="frame" x="0.0" y="90" width="112" height="30"/>
-                                        <state key="normal" title="Rewarded Video"/>
+                                        <rect key="frame" x="0.0" y="90" width="89" height="30"/>
+                                        <state key="normal" title="Banner Sizes"/>
                                         <connections>
-                                            <segue destination="Zrz-xc-tlk" kind="show" id="D8N-Wv-W32"/>
+                                            <segue destination="ZDr-hg-5Q0" kind="show" id="OgR-pb-MrN"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -231,6 +231,144 @@
             </objects>
             <point key="canvasLocation" x="600.79999999999995" y="884.70764617691157"/>
         </scene>
+        <!--Banner Size View Controller-->
+        <scene sceneID="McU-HE-Tow">
+            <objects>
+                <viewController id="ZDr-hg-5Q0" customClass="BannerSizeViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="996-8v-fKj"/>
+                        <viewControllerLayoutGuide type="bottom" id="5xD-Ys-A3F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rj2-MB-IEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B4H-Mj-Y7c">
+                                <rect key="frame" x="49" y="274" width="277" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARq-KB-Qpq">
+                                        <rect key="frame" x="0.0" y="0.0" width="277" height="30"/>
+                                        <state key="normal" title="Standard banner (320*50)"/>
+                                        <connections>
+                                            <segue destination="BB4-ay-BKk" kind="show" id="4oY-aV-0aK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drV-GV-bxM">
+                                        <rect key="frame" x="0.0" y="30" width="277" height="30"/>
+                                        <state key="normal" title="IAB medium rectangle (300x250)"/>
+                                        <connections>
+                                            <segue destination="H7g-Nw-FO9" kind="show" id="miZ-5R-IsA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="en2-Wo-2rZ">
+                                        <rect key="frame" x="0.0" y="60" width="277" height="30"/>
+                                        <state key="normal" title="Large banner (320*100)"/>
+                                        <connections>
+                                            <segue destination="PSB-eD-AIW" kind="show" id="k0o-zP-OdT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qao-Cb-Rml">
+                                        <rect key="frame" x="0.0" y="90" width="277" height="30"/>
+                                        <state key="normal" title="Smart banner (Screen width x 32|50|90)"/>
+                                        <connections>
+                                            <segue destination="Ee0-z3-G1m" kind="show" id="LDY-kn-LaE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3n8-LU-wOm">
+                                <rect key="frame" x="127" y="629" width="120" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Zzy-wH-CvC"/>
+                                    <constraint firstAttribute="width" constant="120" id="j9E-VU-T2q"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3n8-LU-wOm" firstAttribute="centerX" secondItem="B4H-Mj-Y7c" secondAttribute="centerX" id="JQM-aw-n0f"/>
+                            <constraint firstItem="B4H-Mj-Y7c" firstAttribute="centerX" secondItem="rj2-MB-IEW" secondAttribute="centerX" id="NJd-bo-9ap"/>
+                            <constraint firstAttribute="bottom" secondItem="3n8-LU-wOm" secondAttribute="bottom" constant="20" symbolic="YES" id="bVz-k1-98M"/>
+                            <constraint firstItem="B4H-Mj-Y7c" firstAttribute="centerY" secondItem="rj2-MB-IEW" secondAttribute="centerY" id="m16-Gz-UaT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2fQ-U6-y2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302" y="886"/>
+        </scene>
+        <!--Standar Banner View Controller-->
+        <scene sceneID="HLE-2U-cU6">
+            <objects>
+                <viewController id="BB4-ay-BKk" customClass="StandarBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rh4-eY-xue"/>
+                        <viewControllerLayoutGuide type="bottom" id="YdW-Vd-jII"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gWP-0m-W5t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4xO-vr-m1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-270" y="1637"/>
+        </scene>
+        <!--Medium Banner View Controller-->
+        <scene sceneID="dcb-l1-r7d">
+            <objects>
+                <viewController id="H7g-Nw-FO9" customClass="MediumBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d0V-iZ-VxY"/>
+                        <viewControllerLayoutGuide type="bottom" id="aSt-T0-Nwi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m3a-Ed-Mkl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Hz-3u-C4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="1637"/>
+        </scene>
+        <!--Large Banner View Controller-->
+        <scene sceneID="Rwk-ut-5Hd">
+            <objects>
+                <viewController id="PSB-eD-AIW" customClass="LargeBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="axz-bs-iKb"/>
+                        <viewControllerLayoutGuide type="bottom" id="pzo-yG-3vg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hVP-QA-3Hp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1T-Na-qE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302" y="1637"/>
+        </scene>
+        <!--Smart Banner View Controller-->
+        <scene sceneID="Iq3-WT-PXl">
+            <objects>
+                <viewController id="Ee0-z3-G1m" customClass="SmartBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vo4-I8-VyO"/>
+                        <viewControllerLayoutGuide type="bottom" id="HQo-ux-0rw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MCN-wG-T79">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdO-L8-HtU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2002" y="1637"/>
+        </scene>
         <!--Rewarded Video View Controller-->
         <scene sceneID="EyF-Ls-jyk">
             <objects>
@@ -276,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Jv-xB-pOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1224.8" y="884.70764617691157"/>
+            <point key="canvasLocation" x="2746" y="1541"/>
         </scene>
     </scenes>
     <resources>

@@ -8,4 +8,6 @@ target 'iosAdMob' do
   # Pods for iosAdMob
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
+  pod 'Fabric'
+  pod 'Crashlytics'
 end

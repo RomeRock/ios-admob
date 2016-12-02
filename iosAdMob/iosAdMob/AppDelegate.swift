@@ -10,6 +10,9 @@ import UIKit
 
 import Firebase
 
+import Fabric
+import Crashlytics
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,6 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FIRApp.configure()
         GADMobileAds.configure(withApplicationID: "ca-app-pub-1943700858932247~9808523213")
+        
+        let appID = "583cb3fa5f8f0b1a6c00044f"
+        let sdk = VungleSDK.shared()
+        // start vungle publisher library
+        sdk?.start(withAppId: appID)
+        Fabric.with([Crashlytics.self])
         return true
     }
 
