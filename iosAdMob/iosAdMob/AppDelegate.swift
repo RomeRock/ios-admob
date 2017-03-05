@@ -25,11 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRApp.configure()
         GADMobileAds.configure(withApplicationID: "ca-app-pub-1943700858932247~9808523213")
         
-        let appID = "583cb3fa5f8f0b1a6c00044f"
-        let sdk = VungleSDK.shared()
-        // start vungle publisher library
-        sdk?.start(withAppId: appID)
-        
         return true
     }
 

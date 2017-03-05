@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FLm-iY-NnM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GYN-ES-EYp">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--RomeRock-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,119 +24,99 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cl3-X3-tVM">
-                                <rect key="frame" x="143" y="273.5" width="89" height="120"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSL-ry-pjM">
-                                        <rect key="frame" x="0.0" y="0.0" width="89" height="30"/>
-                                        <state key="normal" title="Banner Ad"/>
-                                        <connections>
-                                            <segue destination="i55-oy-h8F" kind="show" id="4ic-a7-J11"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlG-om-CaR">
-                                        <rect key="frame" x="0.0" y="30" width="89" height="30"/>
-                                        <state key="normal" title="Intersitial Ad"/>
-                                        <connections>
-                                            <segue destination="ZpS-TY-bNU" kind="show" id="MBG-ks-gsy"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmA-Ca-NxO">
-                                        <rect key="frame" x="0.0" y="60" width="89" height="30"/>
-                                        <state key="normal" title="Native Ad"/>
-                                        <connections>
-                                            <segue destination="dsp-gx-upD" kind="show" id="yZV-jb-gMY"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBa-YR-cDw">
-                                        <rect key="frame" x="0.0" y="90" width="89" height="30"/>
-                                        <state key="normal" title="Banner Sizes"/>
-                                        <connections>
-                                            <segue destination="ZDr-hg-5Q0" kind="show" id="OgR-pb-MrN"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="O5D-A4-FnN">
-                                <rect key="frame" x="127.5" y="641" width="120" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="5Y6-XT-ko7"/>
-                                    <constraint firstAttribute="width" constant="120" id="mQQ-2a-zeF"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ned-hn-pbk">
-                                <rect key="frame" x="255.5" y="637" width="22" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezd-fE-nkA">
+                                <rect key="frame" x="16" y="308" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.69019607839999997" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Open Interstitial">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
-                                    <segue destination="SOH-8M-uNN" kind="show" id="PFR-bA-Hxs"/>
+                                    <action selector="intersitialButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zMB-k5-wEd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ads Examples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uA-5b-lo3">
-                                <rect key="frame" x="0.0" y="137" width="375" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7mX-8q-6Sm">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1HJ-C0-1sQ"/>
+                                    <barButtonItem style="plain" id="2i3-2P-Jhh">
+                                        <view key="customView" contentMode="scaleToFill" id="nev-sp-JCh">
+                                            <rect key="frame" x="88" y="6" width="199" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_romerock_logo_gray" translatesAutoresizingMaskIntoConstraints="NO" id="3fN-TM-kBQ">
+                                                    <rect key="frame" x="50" y="8" width="99" height="16"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="16" id="SJP-Md-KDF"/>
+                                                        <constraint firstAttribute="width" constant="99" id="X8R-IO-W1b"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="3fN-TM-kBQ" firstAttribute="centerY" secondItem="nev-sp-JCh" secondAttribute="centerY" id="P7e-kx-zTp"/>
+                                                <constraint firstItem="3fN-TM-kBQ" firstAttribute="centerX" secondItem="nev-sp-JCh" secondAttribute="centerX" id="hBr-VY-Qp5"/>
+                                            </constraints>
+                                        </view>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="dHv-H8-p4n"/>
+                                </items>
+                                <color key="barTintColor" red="0.94117647059999998" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="cl3-X3-tVM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2hc-G6-6mD"/>
-                            <constraint firstItem="6uA-5b-lo3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4dF-Qg-Qoz"/>
-                            <constraint firstItem="6uA-5b-lo3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="7Bp-d5-Vwa"/>
-                            <constraint firstItem="O5D-A4-FnN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B7g-4B-JID"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ned-hn-pbk" secondAttribute="bottom" constant="8" id="Ff6-oe-UzG"/>
-                            <constraint firstItem="6uA-5b-lo3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IQf-z3-Iac"/>
-                            <constraint firstItem="cl3-X3-tVM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Li3-O3-lnl"/>
-                            <constraint firstAttribute="trailing" secondItem="6uA-5b-lo3" secondAttribute="trailing" id="M0s-oe-34n"/>
-                            <constraint firstItem="ned-hn-pbk" firstAttribute="leading" secondItem="O5D-A4-FnN" secondAttribute="trailing" constant="8" id="aLO-t0-Wcj"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O5D-A4-FnN" secondAttribute="bottom" constant="8" id="f9V-3t-XWn"/>
+                            <constraint firstItem="ezd-fE-nkA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="F4l-o7-nhP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ezd-fE-nkA" secondAttribute="trailing" id="WDQ-6U-DYq"/>
+                            <constraint firstItem="ezd-fE-nkA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="50/667" id="ezS-RM-wIX"/>
+                            <constraint firstItem="ezd-fE-nkA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iOn-8j-YYI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="RomeRock" id="ffG-ny-c0l"/>
+                    <navigationItem key="navigationItem" id="ffG-ny-c0l">
+                        <barButtonItem key="leftBarButtonItem" image="ic_menu" style="plain" id="tof-j5-pwo">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuItem" destination="tof-j5-pwo" id="xrW-VZ-fO0"/>
+                        <outlet property="toolbar" destination="7mX-8q-6Sm" id="qui-py-6tP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
-        <!--Web View Controller-->
-        <scene sceneID="ACQ-T9-nUh">
+        <!--Reveal View Controller-->
+        <scene sceneID="gkZ-wv-kws">
             <objects>
-                <viewController id="SOH-8M-uNN" customClass="WebViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GYN-ES-EYp" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xPS-TR-g0c"/>
-                        <viewControllerLayoutGuide type="bottom" id="fsm-Zv-O1i"/>
+                        <viewControllerLayoutGuide type="top" id="z4A-Zj-34D"/>
+                        <viewControllerLayoutGuide type="bottom" id="hs9-ZL-dTy"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ib6-Nb-H3r">
+                    <view key="view" contentMode="scaleToFill" id="j2U-9Y-fSt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="emL-t9-d2f">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="emL-t9-d2f" firstAttribute="top" secondItem="xPS-TR-g0c" secondAttribute="bottom" constant="-64" id="1Yq-pb-ML9"/>
-                            <constraint firstItem="fsm-Zv-O1i" firstAttribute="top" secondItem="emL-t9-d2f" secondAttribute="bottom" id="EGD-AO-0lQ"/>
-                            <constraint firstAttribute="trailing" secondItem="emL-t9-d2f" secondAttribute="trailing" id="Jr9-w7-dk7"/>
-                            <constraint firstItem="emL-t9-d2f" firstAttribute="leading" secondItem="Ib6-Nb-H3r" secondAttribute="leading" id="y1M-T9-Maz"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="emL-t9-d2f" id="EqT-HD-tvm"/>
+                        <segue destination="FLm-iY-NnM" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="QvE-li-hxr"/>
+                        <segue destination="9Vt-ZE-LN1" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="xXX-3s-cBM"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nte-nk-sd9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bzn-yp-XMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="696.79999999999995" y="35.532233883058474"/>
+            <point key="canvasLocation" x="-1863" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uYn-gO-ZAo">
             <objects>
                 <navigationController id="FLm-iY-NnM" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8DQ-eY-8aV">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="8DQ-eY-8aV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.090196078430000007" green="0.69019607839999997" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3hW-EW-zP9"/>
@@ -141,215 +124,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyO-Cb-YJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-690" y="124"/>
-        </scene>
-        <!--Banner Ad View Controller-->
-        <scene sceneID="Tv1-es-E0o">
-            <objects>
-                <viewController id="i55-oy-h8F" customClass="BannerAdViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nnC-su-gJh"/>
-                        <viewControllerLayoutGuide type="bottom" id="6Fm-z2-mTj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Uch-Rf-nLf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zcd-aC-YSg" customClass="GADBannerView">
-                                <rect key="frame" x="27.5" y="617" width="320" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="bL0-Tn-8ZS"/>
-                                    <constraint firstAttribute="height" constant="50" id="gnC-mq-JpX"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Zcd-aC-YSg" firstAttribute="centerX" secondItem="Uch-Rf-nLf" secondAttribute="centerX" id="LKY-58-Qc3"/>
-                            <constraint firstItem="6Fm-z2-mTj" firstAttribute="top" secondItem="Zcd-aC-YSg" secondAttribute="bottom" id="QHK-2G-tCq"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="bannerView" destination="Zcd-aC-YSg" id="smP-fZ-cDU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j0q-Tk-SYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-650" y="886"/>
-        </scene>
-        <!--Intersitial Ad View Controller-->
-        <scene sceneID="BKU-gV-qGb">
-            <objects>
-                <viewController id="ZpS-TY-bNU" customClass="IntersitialAdViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fbv-iH-708"/>
-                        <viewControllerLayoutGuide type="bottom" id="GL5-2O-p3x"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="393-oC-GtT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ni9-u0-W1D" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-26" y="886"/>
-        </scene>
-        <!--Native Ad View Controller-->
-        <scene sceneID="Nfd-4c-M1S">
-            <objects>
-                <viewController id="dsp-gx-upD" customClass="NativeAdViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mzD-n9-cet"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fb6-1X-P1h"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="SFV-oJ-z2b">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xzm-Y6-Tfa" customClass="GADNativeExpressAdView">
-                                <rect key="frame" x="27.5" y="223.5" width="320" height="220"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="IIo-IS-DmB"/>
-                                    <constraint firstAttribute="height" constant="220" id="bg7-IT-6dG"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="xzm-Y6-Tfa" firstAttribute="centerX" secondItem="SFV-oJ-z2b" secondAttribute="centerX" id="qik-P1-tKX"/>
-                            <constraint firstItem="xzm-Y6-Tfa" firstAttribute="centerY" secondItem="SFV-oJ-z2b" secondAttribute="centerY" id="sna-Tu-wNY"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="nativeExpressAdView" destination="xzm-Y6-Tfa" id="M7Y-lH-iFB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Mh-de-PG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="600.79999999999995" y="884.70764617691157"/>
-        </scene>
-        <!--Banner Size View Controller-->
-        <scene sceneID="McU-HE-Tow">
-            <objects>
-                <viewController id="ZDr-hg-5Q0" customClass="BannerSizeViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="996-8v-fKj"/>
-                        <viewControllerLayoutGuide type="bottom" id="5xD-Ys-A3F"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rj2-MB-IEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B4H-Mj-Y7c">
-                                <rect key="frame" x="49" y="274" width="277" height="120"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARq-KB-Qpq">
-                                        <rect key="frame" x="0.0" y="0.0" width="277" height="30"/>
-                                        <state key="normal" title="Standard banner (320*50)"/>
-                                        <connections>
-                                            <segue destination="BB4-ay-BKk" kind="show" id="4oY-aV-0aK"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drV-GV-bxM">
-                                        <rect key="frame" x="0.0" y="30" width="277" height="30"/>
-                                        <state key="normal" title="IAB medium rectangle (300x250)"/>
-                                        <connections>
-                                            <segue destination="H7g-Nw-FO9" kind="show" id="miZ-5R-IsA"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="en2-Wo-2rZ">
-                                        <rect key="frame" x="0.0" y="60" width="277" height="30"/>
-                                        <state key="normal" title="Large banner (320*100)"/>
-                                        <connections>
-                                            <segue destination="PSB-eD-AIW" kind="show" id="k0o-zP-OdT"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qao-Cb-Rml">
-                                        <rect key="frame" x="0.0" y="90" width="277" height="30"/>
-                                        <state key="normal" title="Smart banner (Screen width x 32|50|90)"/>
-                                        <connections>
-                                            <segue destination="Ee0-z3-G1m" kind="show" id="LDY-kn-LaE"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3n8-LU-wOm">
-                                <rect key="frame" x="127" y="629" width="120" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="Zzy-wH-CvC"/>
-                                    <constraint firstAttribute="width" constant="120" id="j9E-VU-T2q"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="3n8-LU-wOm" firstAttribute="centerX" secondItem="B4H-Mj-Y7c" secondAttribute="centerX" id="JQM-aw-n0f"/>
-                            <constraint firstItem="B4H-Mj-Y7c" firstAttribute="centerX" secondItem="rj2-MB-IEW" secondAttribute="centerX" id="NJd-bo-9ap"/>
-                            <constraint firstAttribute="bottom" secondItem="3n8-LU-wOm" secondAttribute="bottom" constant="20" symbolic="YES" id="bVz-k1-98M"/>
-                            <constraint firstItem="B4H-Mj-Y7c" firstAttribute="centerY" secondItem="rj2-MB-IEW" secondAttribute="centerY" id="m16-Gz-UaT"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2fQ-U6-y2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1302" y="886"/>
-        </scene>
-        <!--Standar Banner View Controller-->
-        <scene sceneID="HLE-2U-cU6">
-            <objects>
-                <viewController id="BB4-ay-BKk" customClass="StandarBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="rh4-eY-xue"/>
-                        <viewControllerLayoutGuide type="bottom" id="YdW-Vd-jII"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gWP-0m-W5t">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4xO-vr-m1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-270" y="1637"/>
-        </scene>
-        <!--Medium Banner View Controller-->
-        <scene sceneID="dcb-l1-r7d">
-            <objects>
-                <viewController id="H7g-Nw-FO9" customClass="MediumBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="d0V-iZ-VxY"/>
-                        <viewControllerLayoutGuide type="bottom" id="aSt-T0-Nwi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="m3a-Ed-Mkl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Hz-3u-C4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="513" y="1637"/>
-        </scene>
-        <!--Large Banner View Controller-->
-        <scene sceneID="Rwk-ut-5Hd">
-            <objects>
-                <viewController id="PSB-eD-AIW" customClass="LargeBannerViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="axz-bs-iKb"/>
-                        <viewControllerLayoutGuide type="bottom" id="pzo-yG-3vg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hVP-QA-3Hp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D1T-Na-qE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1302" y="1637"/>
+            <point key="canvasLocation" x="-945" y="36"/>
         </scene>
         <!--Smart Banner View Controller-->
         <scene sceneID="Iq3-WT-PXl">
@@ -416,8 +191,106 @@
             </objects>
             <point key="canvasLocation" x="2746" y="1541"/>
         </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="LiM-pF-Kfs">
+            <objects>
+                <viewController id="9Vt-ZE-LN1" customClass="MenuViewController" customModule="iosAdMob" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wmG-cv-VYR"/>
+                        <viewControllerLayoutGuide type="bottom" id="00x-7f-FyY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ONg-rl-rfS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mN3-Be-RDW">
+                                <rect key="frame" x="19" y="87" width="242" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="FgY-Ib-Cd2"/>
+                                    <constraint firstAttribute="width" constant="242" id="Sf9-QT-Krs"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Thank you for downloading our Mini Module! Follow us on GitHub for more cool Mini Modules that will help you to make an awesome app a lot easier.</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" metaFont="system" size="16"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-mi-scY">
+                                <rect key="frame" x="32" y="280" width="54" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4hq-mi-scY" secondAttribute="height" multiplier="1:1" id="avD-BO-q6a"/>
+                                </constraints>
+                                <state key="normal" image="ic_facebook"/>
+                                <connections>
+                                    <action selector="facebookButtonPressed:" destination="9Vt-ZE-LN1" eventType="touchUpInside" id="LfK-Sj-aNS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSo-lc-Bdf">
+                                <rect key="frame" x="116" y="280" width="54" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GSo-lc-Bdf" secondAttribute="height" multiplier="1:1" id="jOi-zl-AOd"/>
+                                </constraints>
+                                <state key="normal" image="ic_twitter"/>
+                                <connections>
+                                    <action selector="twitterButtonPressed:" destination="9Vt-ZE-LN1" eventType="touchUpInside" id="BUc-0w-8pj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ei-Vr-AgX">
+                                <rect key="frame" x="200" y="280" width="54" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2Ei-Vr-AgX" secondAttribute="height" multiplier="1:1" id="fsb-46-nsX"/>
+                                </constraints>
+                                <state key="normal" image="ic_github"/>
+                                <connections>
+                                    <action selector="githubButtonPressed:" destination="9Vt-ZE-LN1" eventType="touchUpInside" id="4aU-4H-jFY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jL-wB-xOj">
+                                <rect key="frame" x="88" y="605" width="129" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="D7W-gF-HYq"/>
+                                    <constraint firstAttribute="width" constant="129" id="WFL-jc-R9p"/>
+                                </constraints>
+                                <state key="normal" image="img_romerock_logo"/>
+                                <connections>
+                                    <action selector="romerockButtonPressed:" destination="9Vt-ZE-LN1" eventType="touchUpInside" id="fmW-ec-uG7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1647058824" green="0.18823529410000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2jL-wB-xOj" firstAttribute="leading" secondItem="ONg-rl-rfS" secondAttribute="leading" constant="88" id="3sv-Ri-agt"/>
+                            <constraint firstItem="GSo-lc-Bdf" firstAttribute="centerY" secondItem="4hq-mi-scY" secondAttribute="centerY" id="7F0-Zp-ww6"/>
+                            <constraint firstItem="2Ei-Vr-AgX" firstAttribute="leading" secondItem="GSo-lc-Bdf" secondAttribute="trailing" constant="30" id="8TV-Vq-TmN"/>
+                            <constraint firstItem="4hq-mi-scY" firstAttribute="leading" secondItem="ONg-rl-rfS" secondAttribute="leading" constant="32" id="9ri-yt-vk9"/>
+                            <constraint firstItem="2Ei-Vr-AgX" firstAttribute="centerY" secondItem="GSo-lc-Bdf" secondAttribute="centerY" id="C8e-JM-i96"/>
+                            <constraint firstItem="mN3-Be-RDW" firstAttribute="leading" secondItem="ONg-rl-rfS" secondAttribute="leading" constant="19" id="Itd-U9-2Nr"/>
+                            <constraint firstItem="00x-7f-FyY" firstAttribute="top" secondItem="2jL-wB-xOj" secondAttribute="bottom" constant="42" id="QQJ-7g-OhB"/>
+                            <constraint firstItem="GSo-lc-Bdf" firstAttribute="leading" secondItem="4hq-mi-scY" secondAttribute="trailing" constant="30" id="Tv7-EE-Eyv"/>
+                            <constraint firstItem="GSo-lc-Bdf" firstAttribute="width" secondItem="GSo-lc-Bdf" secondAttribute="height" multiplier="1:1" id="UNJ-A1-0ws"/>
+                            <constraint firstItem="2Ei-Vr-AgX" firstAttribute="width" secondItem="2Ei-Vr-AgX" secondAttribute="height" multiplier="1:1" id="jJT-ZX-HZN"/>
+                            <constraint firstItem="4hq-mi-scY" firstAttribute="top" secondItem="mN3-Be-RDW" secondAttribute="bottom" constant="68" id="uhX-Mf-lhd"/>
+                            <constraint firstItem="mN3-Be-RDW" firstAttribute="top" secondItem="wmG-cv-VYR" secondAttribute="bottom" constant="67" id="zW7-j6-mrX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsA-IU-76A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1863" y="794"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="logo" width="120" height="18"/>
+        <image name="ic_facebook" width="54" height="54"/>
+        <image name="ic_github" width="54" height="54"/>
+        <image name="ic_menu" width="16" height="15"/>
+        <image name="ic_twitter" width="54" height="54"/>
+        <image name="img_romerock_logo" width="130" height="20"/>
+        <image name="img_romerock_logo_gray" width="99" height="16"/>
     </resources>
 </document>
