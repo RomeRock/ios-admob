@@ -31,6 +31,11 @@
                                 <state key="normal" title="Open Interstitial">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="intersitialButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zMB-k5-wEd"/>
                                 </connections>
@@ -113,7 +118,7 @@
         <scene sceneID="uYn-gO-ZAo">
             <objects>
                 <navigationController id="FLm-iY-NnM" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="8DQ-eY-8aV">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8DQ-eY-8aV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.090196078430000007" green="0.69019607839999997" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>

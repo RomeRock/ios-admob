@@ -30,6 +30,7 @@
 		3F6862291DED0335009B002E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862271DED0335009B002E /* libsqlite3.dylib */; };
 		3F68622A1DED0335009B002E /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6862281DED0335009B002E /* libz.1.dylib */; };
 		3F68622C1DED036C009B002E /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F68622B1DED036C009B002E /* VungleSDK.framework */; };
+		5D02774E1E6C99FF00C6B3F4 /* CustomExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02774D1E6C99FF00C6B3F4 /* CustomExtentions.swift */; };
 		5DFA4E031E6C5A8300A73EC3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA4E021E6C5A8300A73EC3 /* SWRevealViewController.m */; };
 		5DFA4E051E6C5C2000A73EC3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA4E041E6C5C2000A73EC3 /* MenuViewController.swift */; };
 		CFED8F53F8CA6428FE322A61 /* Pods_iosAdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6839161A9E4DC4E510699200 /* Pods_iosAdMob.framework */; };
@@ -63,6 +64,7 @@
 		3F6862281DED0335009B002E /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		3F68622B1DED036C009B002E /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
 		3F68622D1DED04B0009B002E /* iosAdMob-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosAdMob-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D02774D1E6C99FF00C6B3F4 /* CustomExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtentions.swift; sourceTree = "<group>"; };
 		5DFA4E011E6C5A8300A73EC3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5DFA4E021E6C5A8300A73EC3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5DFA4E041E6C5C2000A73EC3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		3F1B700A1DE7B843001FA759 /* iosAdMob */ = {
 			isa = PBXGroup;
 			children = (
+				5D02774C1E6C99EE00C6B3F4 /* Extentions */,
 				5DFA4DFD1E6C595700A73EC3 /* Libraries */,
 				3F5EF5A61DE8A26A00D98548 /* iosAdMob.entitlements */,
 				3F5EF5A41DE89FEF00D98548 /* GoogleService-Info.plist */,
@@ -142,6 +145,14 @@
 				5DFA4E041E6C5C2000A73EC3 /* MenuViewController.swift */,
 			);
 			path = iosAdMob;
+			sourceTree = "<group>";
+		};
+		5D02774C1E6C99EE00C6B3F4 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5D02774D1E6C99FF00C6B3F4 /* CustomExtentions.swift */,
+			);
+			name = Extentions;
 			sourceTree = "<group>";
 		};
 		5DFA4DFD1E6C595700A73EC3 /* Libraries */ = {
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DFA4E031E6C5A8300A73EC3 /* SWRevealViewController.m in Sources */,
+				5D02774E1E6C99FF00C6B3F4 /* CustomExtentions.swift in Sources */,
 				5DFA4E051E6C5C2000A73EC3 /* MenuViewController.swift in Sources */,
 				3F1B700E1DE7B843001FA759 /* ViewController.swift in Sources */,
 				3F1B700C1DE7B843001FA759 /* AppDelegate.swift in Sources */,
